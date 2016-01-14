@@ -6,6 +6,12 @@
 #################
 /dndtools/local.py
 
+# Virtual environment
+env
+
+# SQLite database
+*.sqlite
+
 # Binaries #
 ############
 *.pyc
@@ -14,3 +20,4 @@
 /dndtools/_schema-migration-1-auto.bat
 /dndtools/_schema-migration-2-migrate.bat
 /dndtools/static/media/race/*.jpg
+/dndtools/dndproject/local.py
